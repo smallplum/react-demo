@@ -1,0 +1,34 @@
+.pageHeader{
+    height: 60px;
+    // background: #18306a;
+    background-image: url(../../assets/header-back.png);
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 50px;
+    :global{
+        .header-left{
+            flex:1;
+            display: flex;
+            justify-content: flex-start;
+            align-items: Center;
+            .header-logo{
+                width: 160px;
+                height: 45px;
+                color: white;
+            }
+        }    
+        .header-right{
+            width: 100px;
+        }
+        .ant-menu{
+            background-color: #020406;
+            color: white;
+            font-size: 18px;
+        }
+        .ant-menu-horizontal{
+            border-bottom: none;
+        }
+    }
+}

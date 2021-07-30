@@ -1,2 +1,3 @@
-# react-demo
+# aichemy-tools
+
 在项目中引入一些小插件，本地测试
