@@ -91,6 +91,7 @@
         "react-router-redux": "^4.0.8",
         "redux": "^4.0.5",
         "redux-thunk": "^2.3.0",
-        "save-dev": "0.0.1-security"
+        "save-dev": "0.0.1-security",
+        "swiper": "^6.8.0"
     }
 }
