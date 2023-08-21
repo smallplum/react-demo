@@ -1,8 +1,8 @@
 /* eslint-disable no-undef */
 import { createStore, applyMiddleware, combineReducers } from 'redux';
 import thunkMiddleware from 'redux-thunk';
-import Retrosynthesis from '@/views/Retrosynthesis/reducer';
 import { composeWithDevTools } from 'redux-devtools-extension';
+import Retrosynthesis from '@/views/Retrosynthesis/reducer';
 
 const test = (state = 0, action) => {
   switch (action.type) {

@@ -1,5 +1,5 @@
-import creater from '@/utils/typeCreater';
 import keyMirror from 'keymirror';
+import creater from '@/utils/typeCreater';
 
 const types = keyMirror({
   UPDATE_BASE_INFO: null,
