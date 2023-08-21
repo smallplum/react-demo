@@ -14,6 +14,21 @@ module.exports = merge(baseConfig, {
         changeOrigin: true,
         secure: true,
       },
-    }
-  }
+      '/task': {
+        target: 'https://saas.stonewise.cn/',
+        // target: 'http://dev01.bgp.stonewise.cn:7206/',
+        // target: 'http://test02.aws.nx.stonewise.cn:7104',
+        // test 分支接口
+        // target: 'https://test02.aws.nx.stonewise.cn:4433/',
+        // target: 'http://dev01.bgp.stonewise.cn:7206',
+        // target: 'http://dev01.aws.nx.stonewise.cn:7231/',
+        // target: 'https://tmp-test02.aws.nx.stonewise.cn:4433/',
+        changeOrigin: true,
+        secure: true,
+        pathRewrite: {
+          '^/task': '/task',
+        },
+      },
+    },
+  },
 });

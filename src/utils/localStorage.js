@@ -28,7 +28,7 @@ export default {
   },
   setItem(key, data, expireTime) {
     const newObj = {
-      expireTime: expireTime || null,
+      expireTime: expireTime || null
     };
     if (typeof data === 'object') {
       newObj.type = 'json';
@@ -37,5 +37,5 @@ export default {
       newObj.value = data;
     }
     localStorage.setItem(key, JSON.stringify(newObj));
-  },
+  }
 };

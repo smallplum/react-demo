@@ -1,6 +1,7 @@
 import Retrosynthesis from '@/views/Retrosynthesis';
 import MySwiper from '@/components/Swiper';
 import LineChart from '@/views/D3/LineChart';
+import PreviewExcel from '@/views/PreviewExcel';
 
 export default [
   {
@@ -17,5 +18,10 @@ export default [
     path: '/d3/lineChart',
     exact: true,
     component: LineChart,
+  },
+  {
+    path: '/previewExcel',
+    exact: true,
+    component: PreviewExcel,
   },
 ];
